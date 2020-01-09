@@ -1,0 +1,14 @@
+.bodyRequestBlock{
+    background-color: #ffffff;
+    padding: 30px;
+    margin-left: -15px;
+}
+
+.bodyRequestBlockJson{
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: -15px;
+}

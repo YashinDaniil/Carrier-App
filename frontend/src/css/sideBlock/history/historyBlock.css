@@ -1,0 +1,65 @@
+.historyHeaderBlock{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0D1014;
+    width: 360px;
+    padding-left: 36px !important;
+    margin-left: -25px !important;
+    text-align: right;
+    padding-right: 20px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+
+.historyHeaderAddRequest:hover{
+    cursor: pointer;
+    color: #c1c1c1;
+}
+
+.historyHeaderCleanHistory:hover{
+    cursor: pointer;
+    color: #c1c1c1;
+}
+
+.historyHeaderCleanHistoryTitle{
+    padding-left: 10px;
+}
+
+.historyBlockList{
+    overflow-y: auto;
+    height: calc(100vh - 105px);
+    width: 360px;
+    margin-left: -25px;
+    padding-left: 25px;
+}
+
+.collectionCreateBlock{
+    background-color: #0c0f13;
+    width: 360px;
+    margin-left: -30px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+
+.collectionCreateBlockInput{
+    width: 270px;
+    border-radius: 4px;
+    background-color: #0c0f13;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.collectionCreateBlockButton{
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.collectionCreateBlockButton:hover{
+    cursor: pointer;
+    color: #c1c1c1;
+}

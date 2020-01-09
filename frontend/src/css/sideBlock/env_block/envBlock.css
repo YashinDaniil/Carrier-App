@@ -1,0 +1,76 @@
+.envHeaderBlock{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0D1014;
+    width: 360px;
+    padding-left: 36px !important;
+    margin-left: -25px !important;
+    text-align: right;
+    padding-right: 20px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.envyHeaderAddEnv:hover{
+    cursor: pointer;
+    color: #c1c1c1;
+}
+
+.envCreateBlock{
+    background-color: #0c0f13;
+    width: 360px;
+    margin-left: -30px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.envyHeaderAddEnvTitle{
+    padding-left: 10px;
+}
+
+
+.envCreateBlockInputLabel{
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.envCreateBlockInput{
+    width: 300px;
+    border-radius: 4px;
+    background-color: #0c0f13;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.envCreateBlockButton{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 300px;
+    background-color: #Fff;
+    padding: 7px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.envCreateBlockButton:hover{
+    background-color: #c2c2c2;
+    cursor: pointer;
+}
+
+.envCreateBlockListCollections{
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.envCreateBlockError{
+    color: #ab1423;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+}

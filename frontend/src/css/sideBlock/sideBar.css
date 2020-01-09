@@ -1,0 +1,35 @@
+.sideBlock{
+    background-color: #17181A;
+    width: 360px;
+    height: 100vh;
+}
+
+.sideBlockMenu{
+    border-bottom: 1px solid #67696d;
+    background-color: #0D1014;
+    margin: 0 !important;
+}
+
+.sideBlockMenuItem{
+    width: 120px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sideBlockMenuItem:hover{
+    background-color: #3f434b;
+}
+
+.selectMenuItem{
+    border-bottom: 3px solid #fba759;
+}
+
+.contentBlock{
+    position: absolute;
+    margin-top: calc(-100vh + 65px);
+    z-index: 5;
+    margin-left: 25px;
+}

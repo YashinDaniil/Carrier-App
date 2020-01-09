@@ -1,0 +1,122 @@
+.headerRequestBlock {
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.requestBlock {
+    padding-left: 15px;
+    width: calc(100% - 360px)
+}
+
+.headerRequestBlockDropdownMethod {
+    width: 160px;
+    border-radius: 4px 0 0 4px !important;
+    border-left: 1px solid #ccc !important;
+    border-top: 1px solid #ccc !important;
+    border-bottom: 1px solid #ccc !important;
+    color: #424242 !important;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #e6e6e6 !important;
+    height: 40px !important;
+}
+
+.headerRequestBlockDropdownList {
+    width: 190px !important;
+    margin-top: 5px !important;
+}
+
+.urlInputBlock {
+    width: calc(100% - 460px);;
+}
+
+.urlInputTextInput {
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #e6e6e6;
+    border: 1px solid #cccccc;
+    color: #0c0f13;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 40px;
+}
+
+.urlInputTextInput:focus {
+    outline: 0;
+}
+
+.urlInputSendButton {
+    background-color: #145f94;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.urlInputSendButton:hover {
+    cursor: pointer;
+    background-color: #005ab4;
+}
+
+.urlInputSaveButtonBlock {
+    margin-left: 10px;
+}
+
+.urlInputSaveButton {
+    background-color: #e6e6e6;
+    border: 1px solid #cccccc;
+    color: #0c0f13;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+}
+
+.urlInputSaveButton:hover {
+    cursor: pointer;
+    background-color: #d6d6d6;
+}
+
+.requestRowCollections{
+    width: 160px;
+    background-color: #FFFFFF;
+    border: 1px solid #5f686f;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    position: absolute;
+    z-index: 10;
+    margin-left: -60px;
+    margin-top: 10px;
+}
+
+.requestRowCollectionsHeader{
+    background-color: #282c34;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.requestRowCollectionsItem{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #0000001f;
+}
+
+.requestRowCollectionsItem:hover{
+    background-color: #f1f1f1;
+}

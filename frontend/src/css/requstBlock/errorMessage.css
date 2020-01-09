@@ -1,0 +1,26 @@
+.errorMessage {
+    background-color: #fdfdfd;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: -300px;
+    /*border-bottom: 6px solid #3a3a3a;*/
+    border-left: 6px solid #CC3434;
+    border-radius: 4px;
+    position: absolute;
+    width: 300px;
+
+    -webkit-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.24);
+    bottom: 0;
+    opacity: 0;
+
+}
+
+.errorMessageTitle {
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: #737373;
+    font-size: 16px;
+}

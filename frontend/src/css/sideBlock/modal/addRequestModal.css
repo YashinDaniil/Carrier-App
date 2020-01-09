@@ -1,0 +1,161 @@
+.customModal{
+    display: block !important;
+}
+
+.modal-header-custom{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+    background-color: #282c34;
+    color: #FFFFFF;
+}
+
+.modalCloseButton{
+    color: #FFFFFF;
+}
+
+.modal-body-custom{
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    background-color: #17181b;
+    color: #FFFFFF;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.modalBodyBlock{
+    margin-top: 20px;
+}
+
+.dropdownMethod{
+    width: 160px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #145f94;
+}
+
+.dropdownMethod:hover{
+    cursor: pointer;
+    background-color: #005ab4;
+}
+
+.dropdownList{
+    width: 160px;
+    background-color: #FFFFFF;
+    border: 1px solid #5f686f;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    position: absolute;
+    z-index: 10;
+}
+
+.dropdownItem{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdownItem:hover{
+    background-color: #f1f1f1;
+}
+
+.requestInputItem{
+    width: 468px;
+    border-radius: 4px;
+    background-color: #17181b;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.object-key-val{
+    padding: 5px;
+}
+
+.requestTextareaItem{
+    height: 185px;
+    width: 468px;
+    border-radius: 7px;
+    resize: none;
+    background-color: #1e1e1e;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    overflow-y: auto;
+}
+
+.react-json-view{
+    font-family: 'Helvetica Neue' !important;
+}
+
+.key-modal-input{
+    color: #2b2c2d !important;
+    font-family: 'Helvetica Neue' !important;
+}
+
+.collectionTable{
+    height: 230px;
+    width: 468px;
+    border-radius: 7px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: #1e1e1e;
+}
+
+.collectionHeaders{
+    width: 466px;
+    border-radius: 7px;
+    background-color: #2b2c2d;
+    margin-left: 0 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.collectionHeaderButton{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.allCollectionItem{
+
+}
+
+.createCollectionButton{
+    color: #e08d0d;
+}
+
+.createCollectionButton:hover{
+    cursor: pointer;
+}
+
+.createCollectionBlock{
+    margin-left: 10px;
+    display: none;
+}
+
+.createCollectionField{
+    margin-top: 10px;
+    width: 368px;
+    border-radius: 4px;
+    background-color: #17181b;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.createCollectionPlusButton {
+    font-size: 21px;
+    margin-left: 60px;
+    color: #e08d0d;
+}
+
+.errorCreateCollection::-webkit-input-placeholder {
+    color: #cd1422
+ }

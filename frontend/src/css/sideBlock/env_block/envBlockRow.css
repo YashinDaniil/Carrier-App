@@ -1,0 +1,83 @@
+.envBlockRow{
+    font-size: 14px;
+    border-bottom: 1px solid #8e8e8e;
+    padding-left: 0px !important;
+     width: 365px;
+    margin-left: -30px !important;
+    margin-right: 0 !important;
+}
+
+.envBlockRow:hover{
+    background-color: #3e424a;
+    cursor: pointer;
+}
+
+.envBlockRowHover{
+    width: 300px;
+    margin-left: 0 !important;
+}
+
+.envBlockCaret{
+    width: 12px;
+    margin-right: 10px;
+    font-size: 19px !important;
+    margin-left: 30px;
+    color: #545454;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.envBlockTitle{
+    padding-left: 30px;
+    color: #8e8e8e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 360px;
+    overflow: hidden;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.envBlockTrash{
+    color: #FFFFFF;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 15px;
+}
+
+.envBlockTrash:hover{
+    cursor: pointer;
+    color: #c1c1c1;
+}
+
+.envBlockRowAdditional{
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 0px !important;
+    padding-right: 13px !important;
+    width: 315px;
+    margin-left: 50px !important;
+    margin-right: 0 !important;
+    border-top: 1px solid #424242;
+}
+
+.envBlockRowAdditionalItem{
+    margin-left: 0px !important;
+    color: #8e8e8e;
+}
+
+
+.envBlockRowAdditionalItemLabel{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.envBlockRowAdditionalItemInfo{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    overflow: hidden;
+}
+
+.envBlockRowAdditionalItemInfoWidth{
+    width: 150px;
+}

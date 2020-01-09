@@ -1,0 +1,79 @@
+.collectionRow{
+    font-size: 14px;
+    border-bottom: 1px solid #8e8e8e;
+    cursor: pointer;
+    padding-left: 0px !important;
+    padding-right: 13px !important;
+    width: 365px;
+    margin-left: -30px !important;
+    margin-right: 0 !important;
+}
+
+.collectionRowGeneral{
+    margin-left: 0px !important;
+    width: 365px;
+}
+
+.collectionRowGeneral:hover{
+    background-color: #3e424a;
+    cursor: pointer;
+}
+
+.collectionRowGeneralHover{
+    margin-left: 0 !important;
+    width: 300px;
+}
+
+.collectionRowFolderGlobalBlock{
+    margin-left: 15px !important;
+    margin-right: 5px !important;
+}
+
+#collectionRowFolderIcon{
+    margin-left: 10px !important;
+}
+
+.collectionRowDropFolderIcons{
+    font-size: 19px !important;
+    margin-top: 27px;
+    margin-left: 15px;
+    color: #545454;
+}
+
+.collectionRowDropdownArrow{
+    width: 12px;
+    margin-right: 10px;
+}
+
+.collectionRowTitleCollection{
+    width: calc(100% - 30% - 0px);
+}
+
+.collectionRowName{
+    padding-left: 15px;
+    color: #8e8e8e;
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+.collectionRowRequestCol{
+    color: #636363;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+
+.collectionAdditionalButtons{
+    color: #FFFFFF;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 24px;
+}
+
+.collectionAdditionalButton{
+    margin-left: 10px;
+}
+
+.collectionAdditionalButton:hover{
+    color: #c1c1c1;
+}

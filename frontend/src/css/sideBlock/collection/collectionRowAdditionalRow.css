@@ -1,0 +1,59 @@
+.collectionAdditionalRow{
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 0px !important;
+    padding-right: 13px !important;
+    width: 315px;
+    margin-left: 50px !important;
+    margin-right: 0 !important;
+    border-top: 1px solid #424242;
+}
+
+.collectionAdditionalRow:hover{
+    background-color: #3e424a;
+}
+
+.collectionAdditionalRow:hover .collectionAdditionalEditRequest{
+    visibility: visible;
+}
+
+.collectionAdditionalRow:hover .requestUrl{
+    width: calc(100% - 16.666667% - 60px);;
+}
+
+.postMethod{
+    color: #FC9500;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.getMethod{
+    padding-left: 10px;
+    padding-top: 15px;
+    color: #14945F;
+}
+
+.requestUrl{
+    padding-left: 15px;
+    color: #8e8e8e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: calc(100% - 16.666667% - 0px);
+    overflow: hidden;
+}
+
+.collectionAdditionalEditRequests{
+    color: #FFFFFF;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 15px;
+    visibility: hidden;
+}
+.collectionAdditionalEditRequest{
+    margin-left: 10px;
+}
+
+.collectionAdditionalEditRequest:hover{
+    cursor: pointer;
+    color: #c1c1c1;
+}

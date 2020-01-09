@@ -1,0 +1,23 @@
+.collectionBlockList{
+    overflow-y: auto;
+    height: 175px;
+    margin-top: 10px;
+
+ }
+
+.collectionItem{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #8e8e8e;
+    width: 446px;
+    margin-left: 10px;
+}
+
+.collectionItem:hover{
+    background-color: #26272a !important;
+    cursor: pointer !important;
+}
+
+.collectionItemSelected{
+    background-color: #2d2e31;
+}

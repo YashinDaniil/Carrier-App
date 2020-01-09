@@ -1,0 +1,90 @@
+.historyRow{
+    font-size: 14px;
+    border-bottom: 1px solid #8e8e8e;
+    cursor: pointer;
+    padding-left: 0px !important;
+    padding-right: 13px !important;
+    width: 365px;
+    margin-left: -30px !important;
+    margin-right: 0 !important;
+}
+
+.historyRow:hover{
+    background-color: #3e424a;
+}
+
+.historyRow:hover .requestAdditionalButtons{
+    visibility: visible;
+}
+
+.historyRow:hover .requestUrl{
+    width: calc(100% - 16.666667% - 50px);;
+}
+
+.postMethod{
+    color: #FC9500;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.getMethod{
+    padding-left: 10px;
+    padding-top: 15px;
+    color: #14945F;
+}
+
+.requestUrl{
+    padding-left: 15px;
+    color: #8e8e8e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: calc(100% - 16.666667% - 0px);
+    overflow: hidden;
+}
+
+.requestAdditionalButtons{
+    color: #FFFFFF;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 15px;
+    visibility: hidden;
+}
+.requestAdditionalButton{
+    margin-left: 10px;
+}
+
+.requestAdditionalButton:hover{
+    cursor: pointer;
+    color: #c1c1c1;
+}
+
+.historyRowCollectionsHeader{
+    background-color: #282c34;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.historyRowCollections{
+        width: 160px;
+    background-color: #FFFFFF;
+    border: 1px solid #5f686f;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 370px;
+}
+
+.historyRowCollectionsItem{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #0000001f;
+}
+
+.historyRowCollectionsItem:hover{
+    background-color: #f1f1f1;
+}
