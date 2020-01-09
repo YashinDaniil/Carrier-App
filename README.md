@@ -13,12 +13,14 @@ Application for testing backend and working with http requests created using Dja
 
 ### In progress
 - [ ] Browser optimization
-- [ ] Working with env
-- [ ] CA Certificates
-- [ ] Proxy Requests
+- [ ] Work with the environment
 - [ ] SSH Forwarding
-- [ ] Requests testing
-- [ ] Requests monitor
-- [ ] Saving query result
+- [ ] CA Certificates
+- [ ] Requests with proxy
+- [ ] Work with workspaces
+- [ ] Request tests
+- [ ] Request monitoring
+- [ ] Ability to download query results
 
 - [ ] \(Potentially) IOS app
+
